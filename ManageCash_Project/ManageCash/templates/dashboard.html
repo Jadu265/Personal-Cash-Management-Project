@@ -1,0 +1,36 @@
+{% extends 'master/base.html' %}
+
+
+{% block body %}
+<br><br>
+<div class="row">
+    <div class="card text-center col-sm-4">
+  <div class="card-header">
+    <h3>Total Cash</h3>
+  </div>
+  <div class="card-body">
+    <p class="card-text">{{total_cash}} TK(BDT)</p>
+  </div>
+</div>
+
+<div class="card text-center col-sm-4">
+  <div class="card-header">
+    <h3>Total Expenses</h3>
+  </div>
+  <div class="card-body">
+    <p class="card-text">{{total_expense}} TK(BDT)</p>
+  </div>
+</div>
+<div class="card text-center col-sm-4">
+  <div class="card-header">
+    <h3>Current Balance</h3>
+  </div>
+  <div class="card-body">
+    <p class="card-text">{{current_balance}} TK(BDT)</p>
+  </div>
+</div>
+
+</div>
+    
+{% endblock body %}
+
